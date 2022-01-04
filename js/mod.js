@@ -2,7 +2,7 @@ let modInfo = {
 	name: "Rock Floating in Space Game: ReTreed (or: The Tree Floating in Space)",
 	id: "spacerock-wingedcatgirl",
 	author: "wingedcatgirl",
-	pointsName: "flux",
+	pointsName: "breath",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "Server Of A Cat Whomst Create",
@@ -18,8 +18,10 @@ let VERSION = {
 }
 
 let changelog = `<h1>Changelog:</h1><br>
+	<h3>v0.015</h3><br>
+		- Added flux
 	<h3>v0.01</h3><br>
-		- Followed a tutorial for a few minutes. We haven't even ported the Orteil content 😅`
+		- Followed a tutorial for a few minutes. We haven't even ported the Orteil content 😅<br>`
 
 let winText = `Congration on reaching the end of what we've made so far! But the game's not even remotely done lol`
 
