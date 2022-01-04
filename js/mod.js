@@ -13,11 +13,14 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.018",
-	name: "Almost...",
+	num: "0.0185",
+	name: "Almost-er...",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
+	<h3>v0.0185</h3><br>
+		- Added an islet milestone<br><br>
+
 	<h3>v0.018</h3><br>
 		- Added islets<br><br>
 

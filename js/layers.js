@@ -41,7 +41,13 @@ addLayer("You", {
                 cost: new Decimal(1),
                 },
         },
-    
+
+        doReset(resettingLayer) {
+			let keep = [];
+			if (hasMilestone("I", 0) && resettingLayer=="I") keep.push("upgrades")
+			if (layers[resettingLayer].row > this.row) layerDataReset("You", keep)
+		},
+
     layerShown(){return true}
 })
 
@@ -82,6 +88,13 @@ addLayer("I", {
             cost: new Decimal(1),
             },
         },
-    
+    milestones: {
+        0: {
+            requirementDescription: "2 islets",
+            effectDescription: "Retain breathing upgrades on reset",
+            done() { return player.I.points.gte(2)}
+            },
+        
+        },
     layerShown(){return true}
 })
