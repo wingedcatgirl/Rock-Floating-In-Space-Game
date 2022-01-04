@@ -1,28 +1,27 @@
 let modInfo = {
-	name: "The ??? Tree",
-	id: "mymod",
-	author: "nobody",
-	pointsName: "points",
+	name: "Rock Floating in Space Game: ReTreed (or: The Tree Floating in Space)",
+	id: "spacerock-wingedcatgirl",
+	author: "wingedcatgirl",
+	pointsName: "flux",
 	modFiles: ["layers.js", "tree.js"],
 
-	discordName: "",
-	discordLink: "",
+	discordName: "Server Of A Cat Whomst Create",
+	discordLink: "https://discord.gg/V5Kbh8Q",
 	initialStartPoints: new Decimal (10), // Used for hard resets and new players
 	offlineLimit: 1,  // In hours
 }
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
-	name: "Literally nothing",
+	num: "0.01",
+	name: "The Heck Is This?",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
-	<h3>v0.0</h3><br>
-		- Added things.<br>
-		- Added stuff.`
+	<h3>v0.01</h3><br>
+		- Followed a tutorial for a few minutes. We haven't even ported the Orteil content 😅`
 
-let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
+let winText = `Congration on reaching the end of what we've made so far! But the game's not even remotely done lol`
 
 // If you add new functions anywhere inside of a layer, and those functions have an effect when called, add them here.
 // (The ones here are examples, all official functions are already taken care of)
