@@ -7,21 +7,25 @@ let modInfo = {
 
 	discordName: "Server Of A Cat Whomst Create",
 	discordLink: "https://discord.gg/V5Kbh8Q",
-	initialStartPoints: new Decimal (10), // Used for hard resets and new players
+	initialStartPoints: new Decimal (0), // Used for hard resets and new players
 	offlineLimit: 1,  // In hours
 }
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.01",
-	name: "The Heck Is This?",
+	num: "0.018",
+	name: "Almost...",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
+	<h3>v0.018</h3><br>
+		- Added islets<br><br>
+
 	<h3>v0.015</h3><br>
-		- Added flux
+		- Added flux<br><br>
+
 	<h3>v0.01</h3><br>
-		- Followed a tutorial for a few minutes. We haven't even ported the Orteil content 😅<br>`
+		- Followed a tutorial for a few minutes.<br>We haven't even ported the Orteil content 😅`
 
 let winText = `Congration on reaching the end of what we've made so far! But the game's not even remotely done lol`
 
@@ -44,6 +48,7 @@ function getPointGen() {
 		return new Decimal(0)
 
 	let gain = new Decimal(1)
+	if (hasUpgrade('You',11)) gain = gain.times(2)
 	return gain
 }
 
