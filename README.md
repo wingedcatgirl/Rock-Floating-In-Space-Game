@@ -4,4 +4,4 @@ An incremental game on [the Modding Tree engine](https://github.com/Acamaeda/The
 
 You're on a rock, floating in space. This happened.
 
-[Play the game here](https://raw.githack.com/wingedcatgirl/The-Modding-Tree/master/index.html)!
+[Play the game here](https://raw.githack.com/wingedcatgirl/Rock-Floating-In-Space-Game/master/index.html)!
